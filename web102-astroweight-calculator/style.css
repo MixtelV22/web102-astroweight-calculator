@@ -1,0 +1,44 @@
+body {
+  font-family: "Space Mono", monospace;
+  text-shadow: 12px;
+  font-weight: bold;
+  color: greenyellow;
+  text-align: center;
+  margin-top: 100px;
+  background-image: url('https://m.media-amazon.com/images/I/61f5dUCGcvL._UF894,1000_QL80_.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #45a049;
+  color: black;
+  outline: red;
+  cursor: pointer;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: whitesmoke;
+}
+
+button:hover {
+  background-color: limegreen;
+}
+
+cursor{
+
+color: red;
+}
+
+#messageDisplay {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
